@@ -1,0 +1,31 @@
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: right;
+	background-color: black;
+	opacity: 0.9;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-bottom:10px;
+	padding-top :10px;
+	font-family: 'raleway', sans-serif;
+	margin: 0;
+}
+.nav {
+	background-color: transparent;
+	color: white;
+	padding: 0px 20px;
+	font-size: 20px;
+	margin: 0;
+}
+.nav:visited {
+	color: white;
+}
+.nav:hover {
+	color: yellow;
+}
+nav:active {
+	color: white;
+}

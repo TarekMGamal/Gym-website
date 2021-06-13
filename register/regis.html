@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> Register </title>
+
+<!-- javascript function to move into home page when user press close -->
+<script>
+		function trans() {
+		<!-- home page link -->
+     location.replace("file:///C:/Users/Vip/Desktop/gym/home/Home%20Page.html")
+            }
+</script>
+
+<!--  register page inner style -->
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color:white;
+}
+.container {
+    padding: 50px;
+  background-color: white;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=email]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #000000;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: orange;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<form  action="#" method="post" >
+<div class="container">
+<center>
+<h1> Registeration </h1>
+</center>
+<hr>
+<label> First name </label>
+<input type="text" name="firstname" placeholder="First name" size="15" required />
+
+<label> Last name </label>
+<input type="text" name="lastname" placeholder="Last name" size="15" required/> 
+
+<label> Username </label>
+<input type="text" name="Username" placeholder="Username" size="15" required/>
+
+
+<label> Email </label>
+<input type="email" name="email" placeholder="example@site.com" size="50" required />
+<label> Password </label>
+<input type="password" name="password" placeholder="Password" size="30" pattern=".{3,10}" required title="3 to 10 characters"/>
+<label> Confirm Password </label>
+<input type="password" name="confirmpassword" placeholder="Confirm Password" size="30"required/>
+
+
+<div>
+<lable> Plan: </lable> <br>
+<input type="radio" value="Loss weight" name="plan"> private trainer + over 3 days aweek :400 LE. </br>
+<input type="radio" value="Get muscles" name="plan"> private trainer + 3 days aweek or less :350 LE. </br>
+<input type="radio" value="Make shape" name="plan"> trainer giud for week+over 3 days aweek:300 LE.</br>
+<input type="radio" value="Make shape" name="plan">trainer giud for week+3 days aweek or less:250LE.
+</div>
+
+<div>
+<lable> Gender: </lable> <br>
+<input type="radio" value="Female" name="gender" checked> Female
+<input type="radio" value="Male" name="gender"> Male
+</div>
+
+<lable> Phone: </lable>
+<input type="text" name="phone" placeholder="+20: Phone number" size="11" required/>
+
+<input type="submit" class="registerbtn" value ="Register" >
+<input  type = "button" class="registerbtn" value ="close" onclick="trans()"> 
+
+
+</body>
+</html>

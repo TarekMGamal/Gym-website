@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+     <!-- javascript file we used to store admin's data --> 
+     <script src="js.js"> </script> 
+	 
+	  <!-- css files for the page & navigation bar -->
+     <link rel = "stylesheet" type = "text/css" href = "style.css" > 
+     <link rel = "stylesheet" type = "text/css" href = "navbar.css" >  
+	 
+	 <!-- google fonts we used -->
+     <link href="https://fonts.googleapis.com/css?family=Forum|Electrolize|Staatliches" rel="stylesheet">
+			
+		<!-- login page inner style -->	
+<style>
+body{
+  font-family: Calibri, Helvetica, sans-serif;
+  background-repeat: no-repeat ;
+  background-size:cover;
+  background-attached: fixed ;
+}
+label {
+	color:white; 
+}
+
+
+.container {
+    padding: 50px;
+}
+
+input[type=text], input[type=password], textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: orange;
+  outline: none;
+}
+ div {
+            padding: 10px 0;
+         }
+hr {
+  border: 1px solid #000000;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: orange;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+</style>	
+</head>
+ 
+     <!-- navigation bar --> 
+	<header>
+		 <nav> 
+		  <a href = "file:///C:/Users/Vip/Desktop/gym/home/Home%20Page.html" > <img src ="gymslogo.png" id= "logo"> </a>
+		  <a href = "file:///C:/Users/Vip/Desktop/gym/home/Home%20Page.html" id="site"> fitness hub cairo</a> 
+		  <a href = "file:///C:/Users/Vip/Desktop/gym/home/Home%20Page.html" class="nav"> Home </a>
+	    <a href = "javascript:someFunction()" class="nav"> Plans </a>
+	    <a href = "file:///C:/Users/Vip/Desktop/gym/Nutrition/Nutrition.html" class="nav"> Nutrition </a>
+	    <a href = "file:///C:/Users/Vip/Desktop/gym/login&%20logout/login.html" class="nav" id="login"> LogIn </a>
+		 </nav>
+        
+	</header>
+	<br><br><br><br><br><br>
+
+	
+<body>
+
+     <!-- main content -->
+	 
+    <div class="container">
+	   
+     <center>
+     <h1> Login </h1>
+     </center>
+	 
+     <hr>
+	 
+     <label for ="username"> Username </label>
+	 <input type="text" name="Username" placeholder="Username" size="15" id ="username"/>
+	 
+     <label for = "Password"> Password </label>
+     <input type="password"  placeholder="Password" size="30" id = "Password"/>
+	 
+     <button type="submit" class="registerbtn" onclick="logout();" >login</button>
+    </div>
+	  
+</body>
+
+</html>

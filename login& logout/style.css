@@ -1,0 +1,137 @@
+/* general style */
+body {
+    background-image: url("BG.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+*{
+  box-sizing: border-box;
+}
+#logo{
+	float: left;
+	width:50px;
+	height:50px;
+	background : rgba(0,0,0,0);
+	padding:0;
+}
+#site {
+	color: white;
+	font-family: 'Staatliches', cursive;
+	text-align: left;
+	font-size: xxx-large;
+	margin-right: 470px;
+	border-style:none none none none ;
+	background: none;
+	padding-right : 0;
+	}
+ 
+ h1{
+	font-family: 'Electrolize', sans-serif;
+	text-align: center;
+	color: rgba(0 13 56);
+	background: rgb(216 216 216 / 30%);
+	 
+ }
+fieldset{
+	text-align:center;
+	 background : #404040;
+	margin: 0 auto;
+	}
+	 
+p{
+    font-family: 'Forum', cursive;
+	font-size: x-large;
+    color: white;
+	border-style:none none none solid ;
+    border-color: rgba(0 13 56);
+	background : rgb(216 216 216 / 30%);
+	}
+          
+a{
+    text-align: left;
+	text-decoration:none;
+	color:white;
+    font-size: xx-large;
+	
+	}
+a:link{ 
+    text-decoration:none;
+	color:white;
+ 
+	}
+ 
+a:hover{
+	color:yellow;
+	}
+ 
+a:active{
+	text-decoration:none;
+	color:white;
+	}
+			
+ 	 
+
+/* specific to all the plans */
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.alignleft {
+    float: left;
+    
+    width:33.33333%;
+}
+.aligncenter {
+    float: left;
+   
+    width:33.33333%;
+}
+.alignright {
+    float: left;
+    
+    width:33.33333%;
+	
+}
+
+ .paragragh{
+     background : none;
+	 border-style:none none none none ;
+	 font-family: 'Forum', cursive;
+ }
+
+ input[type=button], input[type=submit], input[type=reset] {
+      background-color: #fff722;
+      border: none;
+      color: #404040;
+      padding: 16px 32px;
+      font-size: 20px;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+img{
+	float: left;
+	width:250px;
+	height:250px;
+	background : rgba(0,0,0,0.3);
+	}
+ legend{
+	color: #fff700;
+	font-size: 30px;
+	font-family: 'Electrolize', sans-serif;
+				
+	}
+  
+ 
+/* specific to nutrition */
+
+
+
+
+
+/
